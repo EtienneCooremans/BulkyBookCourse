@@ -16,7 +16,7 @@ namespace BulkyBookWeb.Controllers
         public IActionResult Index()
         {
             List<Category> objCategoryList = _db.Categories.ToList(); // run the SQL code through the database and asign the result to our list object
-            return View(objCategoryList); // pass object to view
+            return View(objCategoryList); // pass object to view qsdf
         }
     }
 }
